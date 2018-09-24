@@ -64,8 +64,8 @@
         "description": "this is layout3"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -230,8 +230,8 @@
         "description": "Theme widget controller"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "@SpatialAgent",
     "description": "",
     "copyright": "",
@@ -429,8 +429,8 @@
         "description": "Widget controller"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "@SpatialAgent",
     "description": "",
     "copyright": "",
@@ -604,8 +604,8 @@
         "description": "this is theme widget controller"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -783,8 +783,8 @@
         "description": "this is the third layout"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -908,8 +908,8 @@
         "description": "this is an alternative layout"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -1078,8 +1078,8 @@
         "description": "this is theme widget controller"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -1282,8 +1282,8 @@
         "description": "this is theme widget controller"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri Inc",
     "description": "PlateauTheme",
     "copyright": "Copyright 2015 Esri Inc.",
@@ -1493,8 +1493,8 @@
         "description": "this is theme footer widget"
       }
     ],
-    "version": "2.9",
-    "wabVersion": "2.9",
+    "version": "2.10",
+    "wabVersion": "2.10",
     "author": "Esri R&D Center Beijing",
     "description": "",
     "copyright": "",
@@ -1628,5 +1628,197 @@
     "i18nLabels_style_green": {},
     "i18nLabels_style_blue": {},
     "i18nLabels_style_cyan": {}
+  },
+  "themes/PocketTheme/main": {
+    "name": "PocketTheme",
+    "label": "Pocket Theme",
+    "platform": "HTML",
+    "panels": [
+      {
+        "name": "PocketPanel",
+        "description": "This is Pocket panel"
+      }
+    ],
+    "styles": [
+      {
+        "name": "black",
+        "description": "this is black style",
+        "styleColor": "#000000"
+      },
+      {
+        "name": "default",
+        "description": "this is dark grey style",
+        "styleColor": "#464646"
+      },
+      {
+        "name": "medium-grey",
+        "description": "this is medium grey style",
+        "styleColor": "#6E6E6E"
+      },
+      {
+        "name": "dark-blue",
+        "description": "this is blue style",
+        "styleColor": "#004575"
+      },
+      {
+        "name": "esri-blue",
+        "description": "this is blue style",
+        "styleColor": "#007AC2"
+      },
+      {
+        "name": "dark-green",
+        "description": "this is dark green style",
+        "styleColor": "#2A7433"
+      },
+      {
+        "name": "esri-green",
+        "description": "this is light green style",
+        "styleColor": "#35AC46"
+      },
+      {
+        "name": "orange",
+        "description": "this is orange style",
+        "styleColor": "#DA4D1E"
+      }
+    ],
+    "layouts": [
+      {
+        "name": "default",
+        "description": "this is the default layout"
+      },
+      {
+        "name": "layout1",
+        "description": "this is layout1"
+      }
+    ],
+    "version": "2.10",
+    "wabVersion": "2.10",
+    "author": "Esri Inc",
+    "description": "Pocket Theme",
+    "copyright": "Copyright 2015 Esri Inc.",
+    "license": "http://links.esri.com/solutions/license",
+    "category": "theme",
+    "i18nLabels": {
+      "defaultLabel": "Pocket Theme",
+      "ar": "نسق Pocket",
+      "bs": "Džepna tema",
+      "cs": "Kapesní motiv",
+      "da": "Pocket-tema",
+      "de": "Pocket-Design",
+      "el": "Θέμα Pocket",
+      "es": "Tema de bolsillo",
+      "et": "Pocket teema",
+      "fi": "Yksinkertainen teema",
+      "fr": "Thème Pocket",
+      "he": "ערכת נושא 'כיס'",
+      "hi": "पॉकेट थीम",
+      "hr": "Džepna tema",
+      "it": "Tema Pocket",
+      "id": "Tema Saku",
+      "ja": "ポケット テーマ",
+      "ko": "포켓 테마",
+      "lt": "Pocket Theme",
+      "lv": "Kabatas tēma",
+      "nb": "Lommetema",
+      "nl": "Pocketthema",
+      "pl": "Motyw Pocket",
+      "pt-br": "Tema Pocket",
+      "pt-pt": "Tema Pocket",
+      "ro": "Tema Buzunar",
+      "ru": "Карманная тема",
+      "sl": "Tema Pocket",
+      "sr": "Džepna tema",
+      "sv": "Pockettema",
+      "th": "ธีมพ็อคเก็ต",
+      "tr": "Cep Teması",
+      "vi": "Chủ đề Pocket",
+      "zh-cn": "口袋主题",
+      "zh-hk": "封包主題",
+      "zh-tw": "封包主題"
+    },
+    "i18nLabels_layout_default": {
+      "defaultLabel": "Default layout",
+      "ar": "تخطيط افتراضي",
+      "bs": "Zadani izgled",
+      "cs": "Výchozí rozvržení",
+      "da": "Standardlayout",
+      "de": "Standard-Layout",
+      "el": "Προεπιλεγμένη διάταξη",
+      "es": "Diseño predeterminado",
+      "et": "Vaikimisi paigutus",
+      "fi": "Oletusasettelu",
+      "fr": "Mise en page par défaut",
+      "he": "פריסת ברירת מחדל",
+      "hi": "डिफ़ॉल्ट रूपरेखा",
+      "hr": "Zadani izgled",
+      "it": "Layout predefinito",
+      "id": "Tata letak default",
+      "ja": "デフォルトのレイアウト",
+      "ko": "기본 레이아웃",
+      "lt": "Numatytasis maketas",
+      "lv": "Noklusējuma izkārtojums",
+      "nb": "Standardoppsett",
+      "nl": "Standaardlay-out",
+      "pl": "Kompozycja domyślna",
+      "pt-br": "Layout Padrão",
+      "pt-pt": "Layout predefinido",
+      "ro": "Aspect implicit",
+      "ru": "Компоновка по умолчанию",
+      "sl": "Privzeta postavitev",
+      "sr": "Podrazumevani raspored",
+      "sv": "Standardlayout",
+      "th": "เค้าโครงเริ่มต้น",
+      "tr": "Varsayılan düzen",
+      "vi": "Bố cục mặc định",
+      "zh-cn": "默认布局",
+      "zh-hk": "預設版面配置",
+      "zh-tw": "預設版面配置"
+    },
+    "i18nLabels_layout_layout1": {
+      "defaultLabel": "Layout 1",
+      "ar": "تخطيط 1",
+      "bs": "Izgled 1",
+      "cs": "Rozvržení 1",
+      "da": "Layout 1",
+      "de": "Layout 1",
+      "el": "Διάταξη 1",
+      "es": "Diseño 1",
+      "et": "Paigutus 1",
+      "fi": "Asettelu 1",
+      "fr": "Mise en page 1",
+      "he": "פריסה 1",
+      "hi": "रूपरेखा 1",
+      "hr": "Izgled 1",
+      "it": "Layout 1",
+      "id": "Tata Letak 1",
+      "ja": "レイアウト 1",
+      "ko": "레이아웃 1",
+      "lt": "1 maketas",
+      "lv": "1. izkārtojums",
+      "nb": "Oppsett 1",
+      "nl": "Lay-out 1",
+      "pl": "Kompozycja 1",
+      "pt-br": "Layout 1",
+      "pt-pt": "Layout 1",
+      "ro": "Aspectul 1",
+      "ru": "Компоновка 1",
+      "sl": "Postavitev 1",
+      "sr": "Raspored 1",
+      "sv": "Layout 1",
+      "th": "โครงร่าง 1",
+      "tr": "Düzen 1",
+      "vi": "Bố cục 1",
+      "zh-cn": "布局 1",
+      "zh-hk": "版面配置 1",
+      "zh-tw": "版面配置 1"
+    },
+    "i18nLabels_style_black": {},
+    "i18nLabels_style_default": {},
+    "i18nLabels_style_medium-grey": {},
+    "i18nLabels_style_dark-blue": {},
+    "i18nLabels_style_esri-blue": {},
+    "i18nLabels_style_dark-green": {},
+    "i18nLabels_style_esri-green": {},
+    "i18nLabels_style_orange": {}
   }
 }

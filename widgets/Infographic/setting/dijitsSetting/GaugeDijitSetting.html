@@ -1,30 +1,12 @@
 <div>
-  <div data-dojo-attach-point="settingTitle" class="flex-lc text-label settingTitle">${nls.gaugeSettings}</div>
+  <div data-dojo-attach-point="settingTitle" class="flex-lc text-label setting-title">${nls.gaugeSettings}</div>
   <div class="infohraphic-setting-tab-container" style="width:100%;">
     <div data-dojo-attach-point="tabNode" class="infohraphic-setting-tab-container"></div>
     <!-- data tab -->
-    <div style="margin-top: 10px;" class="settingTabs" data-dojo-attach-point="dataTab">
-      <div data-dojo-attach-point="singleNumberStatisticsDiv"></div>
-
-      <div class="flex flex-leave1">
-        <div style="width: 210px;" class="flex-leave2-left font-style textOverFlow" title="${nls.dataRange}">${nls.dataRange}</div>
-        <div class="flex flex-leave2-right">
-          <div class="flex-leave3-left font-style textOverFlow text-left-center" font-style title="${nls.min}">${nls.min}</div>
-          <div class="flex-leave3-right">
-            <input value=0 class="data-range-value" type="text"data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" required="true" data-dojo-attach-point="dataRangeMin" data-dojo-attach-event="change:_onSettingsChange"/>
-          </div>
-        </div>
-      </div>
-      
-      <div class="flex flex-leave1 margin-top-11">
-        <div style="width: 210px;" class="flex-leave2-left"></div>
-        <div class="flex flex-leave2-right">
-          <div class="flex-leave3-left font-style textOverFlow text-left-center" title="${nls.max}">${nls.max}</div>
-          <div class="flex-leave3-right">
-            <input value=0 class="data-range-value" type="text"data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" required="true" data-dojo-attach-point="dataRangeMax" data-dojo-attach-event="change:_onSettingsChange"/>
-          </div>
-        </div>
-      </div>
+    <div style="margin-top: 10px;" class="setting-tab" data-dojo-attach-point="dataTab">
+      <div class="value-container" data-dojo-attach-point="valueContainer"></div>
+      <div class="min-container" data-dojo-attach-point="minContainer"></div>
+      <div data-dojo-attach-point="maxContainer"></div>
     </div>
     <!-- display tab -->
     <div style="margin-top: 20px;" data-dojo-attach-point="display" class="display-container paddingRight10">

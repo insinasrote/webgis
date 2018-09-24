@@ -27,8 +27,8 @@
         "type": "esriSLSSolid"
       },
       "PAZoneFillColor": {
-        "color": "#ffa500",
-        "transparency": 0.5,
+        "color": "#ffffff",
+        "transparency": 1,
         "type": "esriSFSSolid"
       },
       "downwindZoneOutlineColor": {
@@ -38,7 +38,7 @@
       },
       "downwindZoneFillColor": {
         "color": "#ffa500",
-        "transparency": 0.5,
+        "transparency": 0.8,
         "type": "esriSFSSolid"
       },
       "fireZoneOutlineColor": {

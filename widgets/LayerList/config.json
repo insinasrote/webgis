@@ -1,4 +1,6 @@
 {
+  "showTitle": true,
+  "showBasemap": false,
   "showLegend": true,
   "expandAllLayersByDefault": false,
   "contextMenu": {

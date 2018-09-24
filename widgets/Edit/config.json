@@ -7,6 +7,7 @@
       "cutVisible": false,
       "reshapeVisible": false
     },
+    "honorSettingOfWebmap": false,
     "layerInfos": [],
     "tableInfos": [],
     "useFilterEdit": false,

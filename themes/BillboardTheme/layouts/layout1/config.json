@@ -1,11 +1,19 @@
 {
   "widgetOnScreen": {
     "widgets": {
+      "widgets/ExtentNavigate/Widget": {
+        "visible": false,
+        "position": {
+          "left": 15,
+          "top": 200
+        },
+        "version": "2.10"
+      },
       "widgets/FullScreen/Widget": {
         "visible": false,
         "position": {
-          "right": 8,
-          "bottom": 55
+          "left": 15,
+          "top": 160
         }
       },
       "ph_8": {

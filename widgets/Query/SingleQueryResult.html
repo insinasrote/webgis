@@ -16,7 +16,7 @@
       <tbody>
         <tr>
           <td class="first-td">
-            <div class="back-arrow" data-dojo-attach-event="click:_onBtnMultipleRelatedBackClicked"></div>
+            <div class="back-arrow feature-action icon-arrow-back" data-dojo-attach-event="click:_onBtnMultipleRelatedBackClicked"></div>
           </td>
           <td class="middle-td">
             <select data-dojo-type="dijit/form/Select" data-dojo-attach-point="relatedLayersSelect" data-dojo-attach-event="change:_onRelatedLayersSelectChanged" style="width:100%;"></select>
@@ -31,7 +31,7 @@
       <tbody>
         <tr>
           <td class="first-td">
-            <div class="back-arrow" data-dojo-attach-event="click:_onBtnSingleRelatedBackClicked"></div>
+            <div class="back-arrow feature-action icon-arrow-back" data-dojo-attach-event="click:_onBtnSingleRelatedBackClicked"></div>
           </td>
           <td class="middle-td">
             <div class="related-records-title jimu-ellipsis" data-dojo-attach-point="relatedTitleDiv"></div>
@@ -41,5 +41,5 @@
       </tbody>
     </table>
   </div>
-  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props="hidden:true"></div>
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingIndicator" data-dojo-props="hidden:true"></div>
 </div>

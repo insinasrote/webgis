@@ -28,14 +28,14 @@
       "widgets/ExtentNavigate/Widget": {
         "position": {
           "left": 15,
-          "top": 159
+          "top": 200
         }
       },
       "widgets/FullScreen/Widget": {
         "visible": false,
         "position": {
-          "right": 8,
-          "bottom": 55
+          "left": 15,
+          "top": 160
         }
       },
       "ph_8": {

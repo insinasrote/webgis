@@ -152,11 +152,15 @@
 					"prefix": "",
 					"suffix": ""
 				},
-				"statistic": {
-					"type": "Features",
-					"fieldName": null,
-					"statisticsType": ""
-				}
+				"statistics": [{
+					"type": "value",
+					"config": {
+						"type": "stat",
+						"value": {
+							"type": "count"
+						}
+					}
+				}]
 			}
 		}, {
 			"id": "4",
@@ -283,8 +287,6 @@
 			"visible": true,
 			"config": {
 				"shape": "curved",
-				"min": 0,
-				"max": 1000,
 				"indicators": [],
 				"display": {
 					"backgroundColor": "",
@@ -316,11 +318,29 @@
 						}
 					}
 				},
-				"statistic": {
-					"type": "Features",
-					"fieldName": null,
-					"statisticsType": ""
-				}
+				"statistics": [{
+					"type": "value",
+					"config": {
+						"type": "stat",
+						"value": {
+							"type": "count"
+						}
+					}
+				}, {
+					"type": "range",
+					"name": "range1",
+					"config": {
+						"type": "fixed",
+						"value": 0
+					}
+				}, {
+					"type": "range",
+					"name": "range2",
+					"config": {
+						"type": "fixed",
+						"value": 1000
+					}
+				}]
 			}
 		}, {
 			"id": "3",
@@ -457,8 +477,6 @@
 			"visible": true,
 			"config": {
 				"shape": "vertical",
-				"min": 0,
-				"max": 1000,
 				"indicators": [],
 				"display": {
 					"backgroundColor": "",
@@ -490,11 +508,29 @@
 						}
 					}
 				},
-				"statistic": {
-					"type": "Features",
-					"fieldName": null,
-					"statisticsType": ""
-				}
+				"statistics": [{
+					"type": "value",
+					"config": {
+						"type": "stat",
+						"value": {
+							"type": "count"
+						}
+					}
+				}, {
+					"type": "range",
+					"name": "range1",
+					"config": {
+						"type": "fixed",
+						"value": 0
+					}
+				}, {
+					"type": "range",
+					"name": "range2",
+					"config": {
+						"type": "fixed",
+						"value": 1000
+					}
+				}]
 			}
 		}, {
 			"id": "3",
@@ -623,8 +659,6 @@
 			"visible": true,
 			"config": {
 				"shape": "horizontal",
-				"min": 0,
-				"max": 1000,
 				"indicators": [],
 				"display": {
 					"backgroundColor": "",
@@ -656,11 +690,29 @@
 						}
 					}
 				},
-				"statistic": {
-					"type": "Features",
-					"fieldName": null,
-					"statisticsType": ""
-				}
+				"statistics": [{
+					"type": "value",
+					"config": {
+						"type": "stat",
+						"value": {
+							"type": "count"
+						}
+					}
+				}, {
+					"type": "range",
+					"name": "range1",
+					"config": {
+						"type": "fixed",
+						"value": 0
+					}
+				}, {
+					"type": "range",
+					"name": "range2",
+					"config": {
+						"type": "fixed",
+						"value": 1000
+					}
+				}]
 			}
 		}, {
 			"id": "3",

@@ -8,7 +8,8 @@
     "LaunchpadTheme",
     "JewelryBoxTheme",
     "PlateauTheme",
-    "TabTheme"
+    "TabTheme",
+    "PocketTheme"
   ],
   "_buildInfo": {
     "manifestsMerged": true
